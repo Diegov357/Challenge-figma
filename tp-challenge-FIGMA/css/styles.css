@@ -858,14 +858,14 @@ div.banner {
 
 .sProduc1img {
     position: absolute;
-    width: 359.97px;
+    width: 300px;
     height: 352px;
     background: url(../imagenes/trooper-1\ 1.png);
 }
 
 #pSProduc1 {
     position: absolute;
-    width: 82.83px;
+    width: 200px;
     height: 17px;
     top: 380px;
     font-family: 'Inter';
@@ -920,24 +920,11 @@ div.banner {
     left: 50px;
 }
 
-.nuevo {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    text-align: center;
-    display: grid;
-    justify-items: normal;
-    padding: 5px;
-}
-
-#nuevo1 {
+#nuevo2 {
     position: absolute;
     width: 96.13px;
     height: 30px;
-    left: 300px;
+    left: 250px;
     background: #FF3333;
 }
 
@@ -953,79 +940,121 @@ div.banner {
 
 .sProduc2img {
     position: absolute;
-    width: 359.97px;
+    width: 300px;
     height: 352px;
     background: url(../imagenes/pidgeotto-1\ 1.png);
 }
 
 .sProduc3 {
     position: absolute;
-    width: 304.01px;
+    width: 200px;
     height: 512px;
-    left: 1250px;
+    left: 1050px;
     top: 212px;
     background: #FFFFFF;
 }
 
 .sProduc3img {
     position: absolute;
-    width: 200px;
+    width: 300px;
     height: 352px;
     background: url(../imagenes/luna-1\ 1.png);
 }
 
-#pSProduc3 {
+.sProduc4 {
     position: absolute;
-    width: 109.42px;
-    height: 17px;
-    top: 380px;    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
-    text-transform: uppercase;
-}
-    
-
-#h1SProduc3 {
-    position: absolute;
-    width: 267.93px;
-    height: 22px;
-    top: 410px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    color: #111111;
+    width: 304.01px;
+    height: 512px;
+    left: 367.53px;
+    top: 760px;
+    background: #FFFFFF;
 }
 
-#priceSProduc3 {
+.sProduc4img {
     position: absolute;
-    width: 88.97px;
-    height: 19px;
-    top: 440px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #333333;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/trooper-1\ 1.png);
 }
 
-#promoSProduc3 {
+.sProduc5 {
     position: absolute;
-    width: 141.12px;
-    height: 15px;
-    top: 470px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    color: #1D84B5;
+    width: 304.01px;
+    height: 512px;
+    left: 696.32px;
+    top: 760px;
+    background: #FFFFFF;
+}
+
+.sProduc5img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/pidgeotto-1\ 1.png);
+}
+
+.sProduc6 {
+    position: absolute;
+    width: 304.01px;
+    height: 512px;
+    left: 1025.12px;
+    top: 760px;
+    background: #FFFFFF;
+}
+
+.sProduc6img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/luna-1\ 1.png);
+}
+
+.sProduc7 {
+    position: absolute;
+    width: 304.01px;
+    height: 512px;
+    left: 367.53px;
+    top: 1308px;
+    background: #FFFFFF;
+}
+
+.sProduc7img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/trooper-1\ 1.png);
+}
+
+.sProduc8 {
+    position: absolute;
+    width: 304.01px;
+    height: 512px;
+    left: 696.32px;
+    top: 1308px;
+    background: #FFFFFF;
+}
+
+.sProduc8img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/pidgeotto-1\ 1.png);
+}
+
+.sProduc9 {
+    position: absolute;
+    width: 304.01px;
+    height: 512px;
+    left: 1025.12px;
+    top: 1308px;
+    background: #FFFFFF;
+}
+
+.sProduc9img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/luna-1\ 1.png);
 }
 
 /*PAGINACION*/
