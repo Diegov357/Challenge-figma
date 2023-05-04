@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>FunkoShop</title>
+</head>
+<body>
+
+ <header>
+    <div class="navebar">
+        <div class="logo">
+            <img src="../imagenes/Logo.png" alt="logo">
+        </div>
+
+        <div class="nav">
+            <ul>
+                <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      >
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                <li id="shop">SHOP</li>
+                <li id="contacto">CONTACTO</li>
+                <li id="login">LOGIN</li>
+            </ul>
+        </div>
+
+        <div class="carrito">
+            <div>
+            <img id="carrimg" src="../imagenes/Carrito.png" alt="carrito">
+            </div>
+
+            <div>
+            <img id="vector1" src="../imagenes/Vector.png" alt="carrito">
+            </div>
+            
+            <div>
+            <img id="vector2" src="../imagenes/Vector2.png" alt="carrito">
+            </div>
+        </div>
+    </div>
+ </header>    
+ 
+ <main>
+    <div class="contact_form">
+
+		<div class="formulario-contacto">			
+      <h1>Formulario de contacto</h1>
+				<h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+					<form action="submeter-formulario.php" method="post">				
+								<p>
+									<label for="nombre" class="colocar">Nombre:
+									</label><br>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+								</p>
+							
+								<p>
+									<label for="email" class="colocar">Email:
+									</label><br>
+										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+								</p>
+						
+								<p>
+									<label for="telefone" class="colocar">Teléfono:
+									</label><br>
+										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+								</p>		
+							
+								<p>
+									<label for="website" class="colocar">Sitio web:
+									</label><br>
+										<input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+								</p>		
+							
+								<p>
+									<label for="asunto" class="colocar">Asunto:
+									</label><br>
+										<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+								</p>		
+							
+								<p>
+									<label for="mensaje" class="colocar">Mensaje:
+									</label><br>       
+                               		  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                               	</p>	  								
+							
+								<button type="submit" name="enviar_formulario" id="env-form"><p>Enviar</p></button>
+
+								<p class="aviso">
+									<span class="obligatorio"> * </span>Los campos son obligatorios.
+								</p>					
+						
+					</form>
+		</div>	
+	</div>
+   
+ </main>
+
+<footer>
+    <div class="footer-contact">
+        <a href="../pages/shop.html" class="shop">SHOP</a>
+        <a href="../pages/register.html" class="register">REGISTER</a>
+        <a href="../pages/login.html" class="login">INGRESAR</a>
+        <a href="../index.html" class="contact">HOME</a>
+
+        <p class="copyright">All rights reserved 2022 - Funkoshop &copy;</p>
+
+        <div class="logos">
+            <div class="logos1">
+            </div>
+            <div class="logos2">
+            </div>
+            <div class="logos3">
+            </div>
+        </div>
+
+    </div>
+    
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

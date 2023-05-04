@@ -1,0 +1,42 @@
+{
+    "nombre-tienda": "funkoShop",
+    "tipo-producto": "funkos",
+    "tipo-venta": "online",
+    "productos": [
+        {
+            "id": "producto-00001",
+            "descripcion": "funko-baby-yoda",
+            "nombre": "baby-yoda",
+            "tamaño": "10cm",
+            "precio": 1799.99,
+            "img" : "../imagenes/baby-yoda-1 1.png"
+        },
+
+        {
+            "id": "producto-00002",
+            "descripcion": "funko-trooper",
+            "nombre": "stormtrooper-lightsaber",
+            "tamaño": "12cm",
+            "precio": 1799.99,
+            "img" : "../imagenes/trooper-1 1.png"
+        },
+
+        {
+            "id": "producto-00003",
+            "descripcion": "funko-pidgeotto",
+            "nombre": "pidgeotto",
+            "tamaño": "10cm",
+            "precio": 1799.99,
+            "img" : "../imagenes/pidgeotto-1 1.png"
+        },
+
+        {
+            "id": "producto-00004",
+            "descripcion": "funko-luna",
+            "nombre": "luna-lovegood-lion-mask",
+            "tamaño": "10cm",
+            "precio": 1799.99,
+            "img" : "../imagenes/luna-1 1.png"
+        }
+    ]
+}
