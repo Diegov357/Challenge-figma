@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>FunkoShop</title>
+</head>
+
+<body class="shopBody">
+
+ <header>
+    <div class="navebar">
+        <div class="logo">
+            <img src="../imagenes/Logo.png" alt="logo">
+        </div>
+
+        <div class="nav">
+            <ul>
+                <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      >
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                <li id="shop">SHOP</li>
+                <li id="contacto">CONTACTO</li>
+                <li id="login">LOGIN</li>
+            </ul>
+        </div>
+
+        <div class="carrito">
+            <div>
+            <img id="carrimg" src="../imagenes/Carrito.png" alt="carrito">
+            </div>
+
+            <div>
+            <img id="vector1" src="../imagenes/Vector.png" alt="carrito">
+            </div>
+            
+            <div>
+            <img id="vector2" src="../imagenes/Vector2.png" alt="carrito">
+            </div>
+        </div>
+    </div>
+ </header>    
+ 
+ <main>
+    <div class="sidebar">
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p id="buscar">Buscar</p>
+            <input id="busqueda" type="search" name="busquedaproduct" placeholder="item o categoria">    
+            
+            <p id="ordenar">Ordenar por</p>
+
+            <div id="ordenarmenu" class="dropdownord">
+                <button class="btn btn-secondaryord dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mayor a menor
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            <p id="precio">Precio</p>
+            <p id="min">Min</p>
+            <input id="minprice" type="number" name="minprice" placeholder="0">
+            <p id="max">Max</p>
+            <input id="maxprice" type="number" name="maxprice" placeholder="0">
+            <p id="guion">-</p>
+            <p id="filtrar">Filtrar</p>
+            <div class="cbox">
+            <label><input type="checkbox" id="cbox1" value="first_checkbox">NUEVOS</label><br>
+            <label><input type="checkbox" id="cbox2" value="first_checkbox">OFERTAS</label><br>
+            <label><input type="checkbox" id="cbox3" value="first_checkbox">EDICIÓN ESPECIAL</label><br>
+            <label><input type="checkbox" id="cbox4" value="first_checkbox">FAVORITOS</label><br>
+            </div>
+          </form>
+
+          <div class="shopProduc">
+            <div class="sProduc1">
+                <div class="sProduc1img"></div>
+                <p id="pSProduc1">Star Wars</p>
+                <h1 id="h1SProduc1">STORMTROOPER LIGHTSABER</h1>
+                <p id="priceSProduc1">$ 1799,99.-</p>
+                <p id="promoSProduc1">3 CUOTAS SIN INTERÉS</p>
+                <div id="nuevo2">
+                    <div class="nuevo">NUEVO</div>
+                </div>
+            </div>
+            <div class="sProduc2">
+                <div class="sProduc2img"></div>
+                <p id="pSProduc1">Pokemon</p>
+                <h1 id="h1SProduc1">PIDGEOTTO</h1>
+                <p id="priceSProduc1">$ 1799,99.-</p>
+                <p id="promoSProduc1">3 CUOTAS SIN INTERÉS</p>
+                <div id="nuevo2">
+                    <div class="nuevo">NUEVO</div>
+                </div>
+            </div>
+            <div class="sProduc3">
+                <div class="sProduc3img"></div>
+                <p id="pSProduc1">Harry Potter</p>
+                <h1 id="h1SProduc1">LUNA LOVEGOOD LION MASK</h1>
+                <p id="priceSProduc1">$ 1799,99.-</p>
+                <p id="promoSProduc1">3 CUOTAS SIN INTERÉS</p>
+                <div id="nuevo2">
+                    <div class="nuevo">NUEVO</div>
+                </div>
+            </div>
+
+            <div class="shopProduc2">
+                <div class="sProduc4">
+                    <div class="sProduc1img"></div>
+                    <p id="pSProduc1">Star Wars</p>
+                    <h1 id="h1SProduc1">STORMTROOPER LIGHTSABER</h1>
+                    <p id="priceSProduc1">$ 1799,99.-</p>
+                    <p id="promoSProduc1">3 CUOTAS SIN INTERÉS</p>
+                    <div id="nuevo2">
+                        <div class="nuevo">NUEVO</div>
+                    </div>
+                </div>
+                <div class="sProduc5">
+                    <div class="sProduc2img"></div>
+                    <p id="pSProduc1">Pokemon</p>
+                    <h1 id="h1SProduc1">PIDGEOTTO</h1>
+                    <p id="priceSProduc1">$ 1799,99.-</p>
+                    <p id="promoSProduc1">3 CUOTAS SIN INTERÉS</p>
+                    <div id="nuevo2">
+                        <div class="nuevo">NUEVO</div>
+                    </div>
+                </div>
+                <div class="sProduc6">
+                    <div class="sProduc3img"></div>
+                    <p id="pSProduc1">Harry Potter</p>
+                    <h1 id="h1SProduc1">LUNA LOVEGOOD LION MASK</h1>
+                    <p id="priceSProduc1">$ 1799,99.-</p>
+                    <p id="promoSProduc1">3 CUOTAS SIN INTERÉS</p>
+                    <div id="nuevo2">
+                        <div class="nuevo">NUEVO</div>
+                    </div>
+                </div>
+
+                <div class="shopProduc3">
+                    <div class="sProduc7">
+                        <div class="sProduc1img"></div>
+                        <p id="pSProduc1">Star Wars</p>
+                        <h1 id="h1SProduc1">STORMTROOPER LIGHTSABER</h1>
+                        <p id="priceSProduc1">$ 1799,99.-</p>
+                        <p id="promoSProduc1">3 CUOTAS SIN INTERÉS</p>
+                        <div id="nuevo2">
+                            <div class="nuevo">NUEVO</div>
+                        </div>
+                    </div>
+                    <div class="sProduc8">
+                        <div class="sProduc2img"></div>
+                        <p id="pSProduc1">Pokemon</p>
+                        <h1 id="h1SProduc1">PIDGEOTTO</h1>
+                        <p id="priceSProduc1">$ 1799,99.-</p>
+                        <p id="promoSProduc1">3 CUOTAS SIN INTERÉS</p>
+                        <div id="nuevo2">
+                            <div class="nuevo">NUEVO</div>
+                        </div>
+                    </div>
+                    <div class="sProduc9">
+                        <div class="sProduc3img"></div>
+                        <p id="pSProduc1">Harry Potter</p>
+                        <h1 id="h1SProduc1">LUNA LOVEGOOD LION MASK</h1>
+                        <p id="priceSProduc1">$ 1799,99.-</p>
+                        <p id="promoSProduc1">3 CUOTAS SIN INTERÉS</p>
+                        <div id="nuevo2">
+                            <div class="nuevo">NUEVO</div>
+                        </div>
+                    </div>
+
+            <div class="paginacion">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li id="page-item"><a class="page-link1" href="#"></a></li>
+                      <li id="page-item"><a class="page-link2" href="#">1</a></li>
+                      <li id="page-item"><a class="page-link2" href="#">2</a></li>
+                      <li id="page-item"><a class="page-link2" href="#">3</a></li>
+                      <li id="page-item"><a class="page-link2" href="#">4</a></li>
+                      <li id="page-item"><a class="page-link2" href="#">5</a></li>
+                      <li id="page-item"><a class="page-link2" href="#">6</a></li>
+                      <li id="page-item"><a class="page-link2" href="#">7</a></li>
+                      <li id="page-item"><a class="page-link2" href="#">8</a></li>
+                      <li id="page-item"><a class="page-link2" href="#">9</a></li>
+                      <li id="page-item"><a class="page-link2" href="#">10</a></li>
+                      <li id="page-item"><a class="page-link3" href="#"></a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+          
+    </div>
+ </main>
+
+ <aside>
+ 
+ </aside>
+
+<footer>
+    <div class="footer">
+        <a href="../index.html" class="shop">HOME</a>
+        <a href="../pages/register.html" class="register">REGISTRARSE</a>
+        <a href="../pages/login.html" class="login">INGRESAR</a>
+        <a href="../pages/contact.html" class="contact">CONTACTO</a>
+
+        <p class="copyright">All rights reserved 2022 - Funkoshop &copy;</p>
+
+        <div class="logos">
+            <div class="logos1">
+            </div>
+            <div class="logos2">
+            </div>
+            <div class="logos3">
+            </div>
+        </div>
+
+    </div>
+    
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

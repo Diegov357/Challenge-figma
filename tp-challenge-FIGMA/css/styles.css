@@ -1,0 +1,1228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVBAR*/
+
+.navebar {
+    height: 144px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: #30343F;
+}
+
+.logo {
+    position: absolute;
+    height: 65.19px;
+    width: 372px;
+    top: 39px;
+    bottom: 39.81px;
+    left: 110px;
+    right: 958px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    top: 59px;
+    bottom: 62px;
+    right: 192px;
+    left: 880px;
+    list-style: none;
+}
+
+.nav li {
+    margin-right: 65px;
+    margin-top: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+#carrimg {
+    position: absolute;
+    left: 71.39%;
+    right: 21.04%;
+    top: 40.97%;
+    bottom: 43.06%;
+}
+
+.carrito {
+    position: absolute;
+    width: 32px;
+    height: 24.43px;
+    margin-left: 1297.7px;
+    margin-right: 110.3px;
+    margin-top: 54.62px;
+    margin-bottom: 64.96px;
+}
+
+#vector1 {
+    position: absolute;
+    margin-left: 46px;
+    bottom: -16px;
+}
+
+#vector2 {
+    position: absolute;
+    margin-left: 34px;
+    bottom: -16px;    
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+.btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    color: #FFFFFF;
+    background-color: #30343F !important;
+    border-color: #30343F !important;
+    rotate: 90deg !important;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    position: absolute;
+    left: 60px;
+    padding: 0;
+    top: 8px;
+}
+
+.sidebar {
+    width: 322px;
+}
+
+#buscar {
+    position: absolute;
+    width: 99px;
+    height: 29px;
+    left: 110px;
+    top: 212px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+#busqueda {
+    box-sizing: border-box;
+    position: absolute;
+    width: 243.03px;
+    height: 44.28px;
+    left: 110px;
+    top: 251px;
+    border: 2px solid #30343F;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#busqueda placeholder {
+    position: absolute;
+    width: 155px;
+    height: 24px;
+    left: 120.95px;
+    top: 261.14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #B9B9B9;
+}
+
+#ordenar {
+    position: absolute;
+    width: 172px;
+    height: 29px;
+    left: 110px;
+    top: 323.28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+.dropdownord {    
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+    width: 243.03px;
+    height: 44.28px;
+    left: 110px;
+    top: 368.28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B9B9B9;
+    background-color: #FFFFFF;
+    border: 2px solid #30343F;
+    border-radius: 6px;
+}
+
+#precio {
+    position: absolute;
+    width: 88px;
+    height: 29px;
+    left: 110px;
+    top: 440.57px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+#min {
+    position: absolute;
+    width: 31px;
+    height: 19px;
+    left: 110px;
+    top: 489.64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#max {
+    position: absolute;
+    width: 37px;
+    height: 19px;
+    left: 238.14px;
+    top: 489.64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+#guion {
+    position: absolute;
+    width: 8px;
+    height: 19px;
+    left: 220.14px;
+    top: 489.83px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #111111;
+}
+
+#minprice {
+    box-sizing: border-box;
+    position: absolute;
+    width: 59.14px;
+    height: 27.52px;
+    left: 151px;
+    top: 485.57px;
+    border: 2px solid #30343F;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#maxprice {
+    box-sizing: border-box;
+    position: absolute;
+    width: 59.14px;
+    height: 27.52px;
+    left: 285.14px;
+    top: 485.57px;
+    border: 2px solid #30343F;
+    border-radius: 6px;
+    text-align: center;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    color: #B9B9B9;
+}
+
+#filtrar {
+    position: absolute;
+    width: 96px;
+    height: 29px;
+    left: 110px;
+    top: 536.99px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+ .cbox {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    left: 110px;
+    top: 580px;
+}
+
+.cbox input  {
+    appearance: none;
+    cursor: pointer;
+    background-color: #fff;
+    width: 24px;
+    height: 24px;
+    appearance: none;
+    border: 2px solid #30343F;
+    border-radius: 6px;
+    margin-right: 6px;
+}
+
+.cbox label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #111111;
+    text-align: start;
+    justify-content: start;
+    display: flex;
+}
+
+/*BANNER*/
+
+div.banner {
+    background: url(../imagenes/funkos-banner\ 1.png);
+    width: 1440px;
+    height: 384px;
+    object-fit: cover;
+    margin-left: -1px;
+}
+
+.publi {
+    text-justify: center;
+    text-align: start;
+    padding-top: 112px;
+    padding-left: 108px;
+}
+
+.banner h1 {
+    color: #FFFFFF;
+    font-family: "Raleway";
+    font-size: 38px;
+    line-height: 45px;
+}
+
+.banner p {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 8px;
+}
+
+/*PRODUCTOS INDEX*/
+
+.products {
+    display: flex;
+    flex-direction: column;
+    padding-left: 110px;
+    }    
+
+.producto {
+    text-justify: center;
+    padding-top: 220px;
+}
+
+.boton {
+    position: absolute;
+    width: 211px;
+    height: 47px;
+    left: 108px;
+    top: 375px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border-color: #FFFFFF;
+    border-style: none;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #111111 !important;
+}
+
+/*PRODUCTO 1*/
+
+.producto1 {
+    background-image: url(../imagenes/baby-yoda-1\ 1.png);
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 720px;
+}
+
+.textproduc1 {
+    margin: 0;
+}
+
+#h1produc1 {
+    position: absolute;
+    width: 441px;
+    height: 108px;
+    left: 110px;
+    top: 670px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 54px;
+    text-transform: uppercase;
+}
+
+#pproduc1 {
+    position: absolute;
+    width: 458px;
+    height: 56px;
+    left: 110px;
+    top: 790px;    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;    
+    color: #4F4F4F;    
+}
+
+#linea1 {
+    position: absolute;
+    width: 645px;
+    height: 0px;
+    left: 110px;
+    top: 870px;
+    border: 2px solid #FF3333;
+}
+
+.botproduc1 {
+    position: absolute;
+    width: 291.81px;
+    height: 65px;
+    left: 110px;
+    top: 910px;    
+    background: #30343F;
+    border-radius: 50px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+/*PRODUCTO 2*/
+
+.producto2 {
+    background-image: url(../imagenes/vulpix-1\ 1.png);
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 110px;
+    top: 1200px;
+}
+
+.textproduc2 {
+    margin: 0;
+}
+
+#h1produc2 {
+    position: absolute;
+    width: 403px;
+    height: 54px;
+    left: 685px;
+    top: 1376px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+#pproduc2 {
+    position: absolute;
+    width: 458px;
+    height: 56px;
+    left: 685px;
+    top: 1442px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+ 
+}
+
+#linea2 {
+    position: absolute;
+    width: 645px;
+    height: 0px;
+    left: 685px;
+    top: 1526px;
+    border: 3px solid #FF3333;
+}
+
+.botproduc2 {
+    position: absolute;
+    width: 291.81px;
+    height: 65px;
+    left: 685px;
+    top: 1560px;
+    background: #30343F;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+/*PRODUCTO 3*/
+
+.producto3 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 733px;
+    top: 1800px;
+    background: url(../imagenes/snape-patronus-1\ 1.png);
+}
+
+.textproduc3 {
+    margin: 0;
+}
+
+#h1produc3 {
+    position: absolute;
+    width: 341px;
+    height: 54px;
+    left: 110px;
+    top: 1976px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+#pproduc3 {
+    position: absolute;
+    width: 458px;
+    height: 56px;
+    left: 110px;
+    top: 2035px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+}
+
+#linea3 {
+    position: absolute;
+    width: 620px;
+    height: 0px;
+    left: 110px;
+    top: 2125px;
+    border: 3px solid #FF3333;
+}
+
+.botproduc3 {
+    position: absolute;
+    width: 291.81px;
+    height: 65px;
+    left: 110px;
+    top: 2159px;
+    background: #30343F;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+/*LANZAMIENTOS*/
+
+.h1lanz {
+    position: absolute;
+    width: 700px;
+    height: 54px;
+    left: 110px;
+    top: 2400px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.lanz1 {
+    position: absolute;
+    width: 359.97px;
+    height: 512px;
+    left: 110px;
+    top: 2511px;
+    background: #FFFFFF;
+}
+
+.lanz1img {
+    position: absolute;
+    width: 359.97px;
+    height: 352px;
+    background: url(../imagenes/trooper-1\ 1.png);
+}
+
+#planz1 {
+    position: absolute;
+    width: 82.83px;
+    height: 17px;
+    top: 380px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+#h1lanz1 {
+    position: absolute;
+    width: 277.13px;
+    height: 22px;
+    top: 410px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+}
+
+#pricelanz1 {
+    position: absolute;
+    width: 88.97px;
+    height: 19px;
+    top: 440px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+#promolanz1 {
+    position: absolute;
+    width: 141.12px;
+    height: 15px;
+    top: 470px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D84B5;
+}
+
+.nuevo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    display: grid;
+    justify-items: normal;
+    padding: 5px;
+}
+
+#nuevo1 {
+    position: absolute;
+    width: 96.13px;
+    height: 30px;
+    left: 300px;
+    background: #FF3333;
+}
+
+.lanz2 {
+    position: absolute;
+    width: 359.97px;
+    height: 512px;
+    left: 541.52px;
+    top: 2511px;
+    background: #FFFFFF;
+}
+
+.lanz2img {
+    position: absolute;
+    width: 359.97px;
+    height: 352px;
+    background: url(../imagenes/pidgeotto-1\ 1.png);
+}
+
+#planz2 {
+    position: absolute;
+    width: 73.63px;
+    height: 17px;
+    top: 380px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+#h1lanz2 {
+    position: absolute;
+    width: 108.4px;
+    height: 22px;
+    top: 410px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+}
+
+#pricelanz2 {
+    position: absolute;
+    width: 88.97px;
+    height: 19px;
+    top: 440px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+#promolanz2 {
+    position: absolute;
+    width: 141.12px;
+    height: 15px;
+    top: 470px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D84B5;
+}
+
+.lanz3 {
+    position: absolute;
+    width: 359.97px;
+    height: 512px;
+    left: 973.03px;
+    top: 2511px;
+    background: #FFFFFF;
+}
+
+.lanz3img {
+    position: absolute;
+    width: 359.97px;
+    height: 352px;
+    background: url(../imagenes/luna-1\ 1.png);
+}
+
+#planz3 {
+    position: absolute;
+    width: 109.42px;
+    height: 17px;
+    top: 380px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    text-transform: uppercase;
+}
+    
+
+#h1lanz3 {
+    position: absolute;
+    width: 267.93px;
+    height: 22px;
+    top: 410px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+}
+
+#pricelanz3 {
+    position: absolute;
+    width: 88.97px;
+    height: 19px;
+    top: 440px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+#promolanz3 {
+    position: absolute;
+    width: 141.12px;
+    height: 15px;
+    top: 470px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D84B5;
+}
+
+/*PRODUCTOS SHOP*/
+
+.h1SProduc1 {
+    position: absolute;
+    width: 700px;
+    height: 54px;
+    left: 110px;
+    top: 2400px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.sProduc1 {
+    position: absolute;
+    width: 200px;
+    height: 512px;
+    left: 352px;
+    top: 212px;    
+    background: #FFFFFF;
+}
+
+.sProduc1img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/trooper-1\ 1.png);
+}
+
+#pSProduc1 {
+    position: absolute;
+    width: 200px;
+    height: 17px;
+    top: 380px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    text-transform: uppercase;
+    left: 50px;
+}
+
+#h1SProduc1 {
+    position: absolute;
+    width: 277.13px;
+    height: 22px;
+    top: 410px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+    left: 50px;
+}
+
+#priceSProduc1 {
+    position: absolute;
+    width: 88.97px;
+    height: 19px;
+    top: 440px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    left: 50px;
+}
+
+#promoSProduc1 {
+    position: absolute;
+    width: 141.12px;
+    height: 15px;
+    top: 470px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D84B5;
+    left: 50px;
+}
+
+#nuevo2 {
+    position: absolute;
+    width: 96.13px;
+    height: 30px;
+    left: 250px;
+    background: #FF3333;
+}
+
+.sProduc2 {
+    position: absolute;
+    width: 200px;
+    height: 352px;
+    left: 700px;
+    top: 212px;
+    background: #FFFFFF;
+    padding: 0;
+}
+
+.sProduc2img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/pidgeotto-1\ 1.png);
+}
+
+.sProduc3 {
+    position: absolute;
+    width: 200px;
+    height: 512px;
+    left: 1050px;
+    top: 212px;
+    background: #FFFFFF;
+}
+
+.sProduc3img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/luna-1\ 1.png);
+}
+
+.sProduc4 {
+    position: absolute;
+    width: 304.01px;
+    height: 512px;
+    left: 367.53px;
+    top: 760px;
+    background: #FFFFFF;
+}
+
+.sProduc4img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/trooper-1\ 1.png);
+}
+
+.sProduc5 {
+    position: absolute;
+    width: 304.01px;
+    height: 512px;
+    left: 696.32px;
+    top: 760px;
+    background: #FFFFFF;
+}
+
+.sProduc5img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/pidgeotto-1\ 1.png);
+}
+
+.sProduc6 {
+    position: absolute;
+    width: 304.01px;
+    height: 512px;
+    left: 1025.12px;
+    top: 760px;
+    background: #FFFFFF;
+}
+
+.sProduc6img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/luna-1\ 1.png);
+}
+
+.sProduc7 {
+    position: absolute;
+    width: 304.01px;
+    height: 512px;
+    left: 367.53px;
+    top: 1308px;
+    background: #FFFFFF;
+}
+
+.sProduc7img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/trooper-1\ 1.png);
+}
+
+.sProduc8 {
+    position: absolute;
+    width: 304.01px;
+    height: 512px;
+    left: 696.32px;
+    top: 1308px;
+    background: #FFFFFF;
+}
+
+.sProduc8img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/pidgeotto-1\ 1.png);
+}
+
+.sProduc9 {
+    position: absolute;
+    width: 304.01px;
+    height: 512px;
+    left: 1025.12px;
+    top: 1308px;
+    background: #FFFFFF;
+}
+
+.sProduc9img {
+    position: absolute;
+    width: 300px;
+    height: 352px;
+    background: url(../imagenes/luna-1\ 1.png);
+}
+
+/*PAGINACION*/
+
+.page-link1 {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    background: url(../imagenes/left.png);
+    background-repeat: no-repeat;
+    border: 1px solid #DFE3E8;
+    border-radius: 4px;
+    color: #C4CDD5;
+    background-position: center;
+}
+
+.page-link2 {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    background: #FFFFFF;
+    border: 1px solid #DFE3E8;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #212B36;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.page-link3 {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    background: url(../imagenes/right.png);
+    background-repeat: no-repeat;
+    border: 1px solid #DFE3E8;
+    border-radius: 4px;
+    color: #C4CDD5;
+    background-position: center;
+}
+
+ul.pagination {
+    position: absolute;
+   
+    top: 3070px;
+    left: 500px;
+}
+
+/*FOOTER*/
+
+.footer {
+    position: absolute;
+    top: 3170px;
+    height: 320px;
+    width: 1440px; 
+    background: #30343F;
+}
+
+.footer a:link {
+    text-decoration: none;
+}
+
+.shop {
+    position: absolute;
+    left: 7.64%;
+    right: 88.54%;
+    top: 24.78%;
+    bottom: 68.51%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.register {
+    position: absolute;
+    left: 7.64%;
+    right: 83.06%;
+    top: 34.4%;
+    bottom: 58.89%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.login {
+    position: absolute;
+    left: 7.64%;
+    right: 85.49%;
+    top: 44.02%;
+    bottom: 49.27%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.contact {
+    position: absolute;
+    left: 7.64%;
+    right: 84.79%;
+    top: 53.64%;
+    bottom: 39.65%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.copyright {
+    position: absolute;
+    left: 36.39%;
+    right: 35.14%;
+    top: 86.59%;
+    bottom: 6.71%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.logos {
+    position: absolute;
+    left: 82.43%;
+    right: 7.64%;
+    top: 36.15%;
+    bottom: 29.97%;
+    background: url(../imagenes/logos1.png);
+    background-size: 94%;
+    background-repeat: no-repeat;
+}
+
+.logos2 {
+    height: 25.47px;
+    position: absolute;
+    left: 50.92%;
+    right: 13.12%;
+    top: 55.35%;
+    bottom: 37.22%;
+    background: url(../imagenes/logos2.png);
+    background-repeat: no-repeat;
+}
+
+.logos3 {
+    height: 25.47px;
+    position: absolute;
+    left: 30.92%;
+    right: 13.12%;
+    top: 55.35%;
+    bottom: 37.22%;    
+    background: url(../imagenes/logos22.png);
+    background-repeat: no-repeat;
+}
+
