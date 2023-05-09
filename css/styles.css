@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+* a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
 /*NAVBAR*/
 
 .navebar {
@@ -1478,6 +1482,51 @@ ul.paginationShop {
     width: 1440px; 
     background: #30343F;
 }
+
+.item-productInd2 {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 300px;
+    top: 300px;
+    background: url(../imagenes/pidgeotto-1\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.item-productInd3 {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 300px;
+    top: 300px;
+    background: url(../imagenes/trooper-1\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.item-productInd4 {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 300px;
+    top: 300px;
+    background: url(../imagenes/luna-1\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.pItemProducIndTitle4 {
+    position: absolute;
+    width: 130.32px;
+    height: 19px;
+    left: 726.75px;
+    top: 326.63px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
 
 /* CONTACTO */
 
