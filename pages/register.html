@@ -55,7 +55,31 @@
  </header>    
  
  <main>
- 
+    <form action="action_page.php">
+        <div class="formRegistro">
+          <h1>Registrate</h1>
+          <p>Por favor completa el siguiente formulario para crearte una cuenta.</p>
+        </div>
+
+        <div class="form-login">
+      
+          <label for="email"><b>Email:</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"><b>Password:</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Repetir Password:</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+      
+          <p>Creando tu cuenta aceptas los términos y condiciones.</p>
+          <button type="submit" id="env-form">Me Registro</button>
+          
+      
+          <p>Ya tienes una cuenta? <a href="../pages/login.html">Logueate!</a>.</p>
+        </div>
+      </form>
  </main>
 
  <aside>
@@ -63,7 +87,7 @@
  </aside>
 
 <footer>
-    <div class="footer">
+    <div class="footer-register">
         <a href="../pages/shop.html" class="shop">SHOP</a>
         <a href="../index.html" class="register">HOME</a>
         <a href="../pages/login.html" class="login">INGRESAR</a>
